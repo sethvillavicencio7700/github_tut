@@ -25,7 +25,7 @@ def county_name(row):
 
 # function to extract the state name from the 'Geographic Area Name' column
 def state_name(row):
-    return row['Geographic Area Name'].strip().split(',')[2]
+    return  # complete this statement 
 
 # function to extract the tract number from the 'Geographic Area Name' column
 def tract_num(row):
